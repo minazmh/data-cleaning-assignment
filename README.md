@@ -32,9 +32,9 @@ From the data set in step 4, creates a second, independent tidy data set with th
 
 ## What you will find in this respository
 
-CodeBook.md: information about raw and tidy data set and chanes made to transform the data set
-README.md: this file
-run_analysis.R: R script to transform raw data set in a tidy one
+* CodeBook.md: information about raw and tidy data set and chanes made to transform the data set
+* README.md: this file
+* run_analysis.R: R script to transform raw data set in a tidy one
 
 ## How to create the tidy data set
 
