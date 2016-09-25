@@ -30,17 +30,17 @@ Appropriately labels the data set with descriptive variable names.
 From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 
-What you will find in this respository
+## What you will find in this respository
 
 CodeBook.md: information about raw and tidy data set and chanes made to transform the data set
 README.md: this file
 run_analysis.R: R script to transform raw data set in a tidy one
 
-How to create the tidy data set
+## How to create the tidy data set
 
-clone this repository: git clone https://github.com/minazmh/data-cleaning-assignment
-download data for the project - https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-unzip raw data and copy the directory UCI HAR Dataset to the cloned repository root directory
-open a R console and set the working directory to the repository root (use setwd())
-source run_analisys.R script (it requires the plyr package): source('run_analysis.R')
-In the repository root directory you find the file sensor_avg_by_act_sub.txt with the tidy data set.
+* clone this repository: git clone https://github.com/minazmh/data-cleaning-assignment
+* download data for the project - https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+* unzip raw data and copy the directory UCI HAR Dataset to the cloned repository root directory
+* open a R console and set the working directory to the repository root (use setwd())
+* source run_analisys.R script (it requires the plyr package): source('run_analysis.R')
+* In the repository root directory you find the file sensor_avg_by_act_sub.txt with the tidy data set.
